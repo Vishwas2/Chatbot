@@ -1,0 +1,56 @@
+
+/* Center the container and limit its width */
+.container {
+    max-width: 600px;
+    margin-top: 30px;
+}
+
+/* Chat box styling */
+#chat-box {
+    background-color: #f8f9fa; /* Light Bootstrap gray */
+    border-radius: 0.25rem;
+    padding: 1rem;
+}
+
+/* Chat messages styling */
+.chat-message {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    max-width: 75%;
+}
+
+/* User message style */
+.user-message {
+    align-self: flex-end;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: #fff;
+}
+
+/* Chatbot message style */
+.bot-message {
+    align-self: flex-start;
+    background-color: #e9ecef; /* Light Bootstrap gray */
+    color: #333;
+}
+
+/* Input and button styling */
+#user-input {
+    border-radius: 0.25rem;
+}
+
+#send-btn {
+    width: 100%;
+    border-radius: 0.25rem;
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Adjust the height and overflow for the chat box */
+#chat-box {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #dee2e6;
+}
